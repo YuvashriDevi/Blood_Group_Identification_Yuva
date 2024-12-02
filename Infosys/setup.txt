@@ -1,0 +1,37 @@
+1. Check for the pyhton availability
+2.Check for pip
+3.Install django in this folder
+  pip install django
+4. create a basic project in folder->'sample'
+   django-admin startproject sample
+
+
+   manage.py file 
+       -> Is the main file to be executed for django project
+       ->this is used to run our django project
+    
+    settings.py file
+      ->will have the required apps and documents for our project
+
+    urls.py
+       ->
+    
+
+    views.py 
+      ->used to display our webpages
+
+
+      database:
+       -> predefined that is available in django 
+         -> db.sqlite3
+      ->go for a online sqlite
+       in browser search for sqliteonline.com
+       *click on file
+       *click on dblite which was in our infosys project
+
+     -> We will have a lot of inbuilt apps in django , first case we need to migrate this all apps
+       -> python manage.py migrate 
+
+    once done, go for runserver
+
+    auth_group -> if you want to create the users as a group of 

@@ -1,7 +1,11 @@
                                Blood Group Identification System
 
 Overview: The Blood Group Identification System is a web-based application designed to identify blood groups by analyzing images of blood cells. It leverages Django for the backend and OpenCV for image processing to automate and simplify the traditionally manual process of blood typing. This system ensures quick, reliable, and accurate identification of both the ABO blood group and Rh factor.
-Features: Automated Blood Typing: Identifies the ABO group and Rh factor from uploaded blood cell images. User Management: Registration and secure login. Personalized profile page to display results. Image Processing: Preprocessing images using techniques like grayscale conversion, thresholding, and morphological operations for accurate analysis. Dashboard Navigation: User-friendly interface for seamless access to the application features. Secure Data Storage: Stores user credentials and results securely in a structured database.
+
+Features: Automated Blood Typing: Identifies the ABO group and Rh factor from uploaded blood cell images. User Management: Registration and secure login. Personalized profile page to display results. Image Processing: Preprocessing images using techniques like grayscale conversion, thresholding, and morphological operations for accurate analysis.
+
+Dashboard Navigation: User-friendly interface for seamless access to the application features. Secure Data Storage: Stores user credentials and results securely in a structured database.
+
 Tech Stack: Frontend: HTML CSS Backend: Django Image Processing: OpenCV Base64 Database: SQLite
 https://drive.google.com/file/d/1B3SDodyRP22CbBDJVXF--sfx54krhcOG/view?usp=sharing
 
@@ -67,6 +71,6 @@ Outputs:
 ![Screenshot 2024-12-11 193444](https://github.com/user-attachments/assets/67094b1c-74fe-412c-aec7-c63e20e34bb3)
 
 
-Contributors: * Konatham Sumathi * Yuvashri Devi * Rajdeep Mondal
+
 
 Future Scope: Integrate advanced AI/ML models for improved accuracy and speed. Expand support for additional blood tests or health parameters. Develop a mobile application for easier access.
